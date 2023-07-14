@@ -34,7 +34,7 @@ struct ContentView: View {
                     
                 }
                 
-                Text("Ranboo is a variety streamer on Twitch, whose internet fame has skyrocketed. Initially totally faceless, they now appear with a medical mask covering the bottom half of their face. He is best known for variety streaming and the live interactive horror-comedy series, Generation Loss. Their broadcasts regularly reach tens of thousands of viewers who adore Ranboo’s comedic quirks and charming presence.")
+                Text("Ranboo is a variety streamer on Twitch, whose internet fame has skyrocketed. Initially totally faceless, they now appear with a mask covering the bottom half of their face. He is best known for variety streaming and the live interactive horror-comedy series, Generation Loss. Their broadcasts regularly reach tens of thousands of viewers who adore Ranboo’s comedic quirks and charming presence.")
                     .font(.title3)
                     .fontWeight(.semibold)
                     .foregroundColor(Color.gray)
