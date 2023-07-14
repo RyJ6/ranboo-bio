@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00053C1A2A5F17270003DE88 /* ranboo_bioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00053C192A5F17270003DE88 /* ranboo_bioApp.swift */; };
+		00053C1C2A5F17270003DE88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00053C1B2A5F17270003DE88 /* ContentView.swift */; };
+		00053C1E2A5F172A0003DE88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00053C1D2A5F172A0003DE88 /* Assets.xcassets */; };
+		00053C212A5F172A0003DE88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00053C202A5F172A0003DE88 /* Preview Assets.xcassets */; };
+		00053C2B2A5F172A0003DE88 /* ranboo_bioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00053C2A2A5F172A0003DE88 /* ranboo_bioTests.swift */; };
+		00053C352A5F172A0003DE88 /* ranboo_bioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00053C342A5F172A0003DE88 /* ranboo_bioUITests.swift */; };
+		00053C372A5F172A0003DE88 /* ranboo_bioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00053C362A5F172A0003DE88 /* ranboo_bioUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00053C272A5F172A0003DE88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00053C0E2A5F17270003DE88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00053C152A5F17270003DE88;
+			remoteInfo = "ranboo bio";
+		};
+		00053C312A5F172A0003DE88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00053C0E2A5F17270003DE88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00053C152A5F17270003DE88;
+			remoteInfo = "ranboo bio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00053C162A5F17270003DE88 /* ranboo bio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ranboo bio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00053C192A5F17270003DE88 /* ranboo_bioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ranboo_bioApp.swift; sourceTree = "<group>"; };
+		00053C1B2A5F17270003DE88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		00053C1D2A5F172A0003DE88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00053C202A5F172A0003DE88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00053C262A5F172A0003DE88 /* ranboo bioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ranboo bioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00053C2A2A5F172A0003DE88 /* ranboo_bioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ranboo_bioTests.swift; sourceTree = "<group>"; };
+		00053C302A5F172A0003DE88 /* ranboo bioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ranboo bioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00053C342A5F172A0003DE88 /* ranboo_bioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ranboo_bioUITests.swift; sourceTree = "<group>"; };
+		00053C362A5F172A0003DE88 /* ranboo_bioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ranboo_bioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00053C132A5F17270003DE88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00053C232A5F172A0003DE88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00053C2D2A5F172A0003DE88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00053C0D2A5F17270003DE88 = {
+			isa = PBXGroup;
+			children = (
+				00053C182A5F17270003DE88 /* ranboo bio */,
+				00053C292A5F172A0003DE88 /* ranboo bioTests */,
+				00053C332A5F172A0003DE88 /* ranboo bioUITests */,
+				00053C172A5F17270003DE88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00053C172A5F17270003DE88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00053C162A5F17270003DE88 /* ranboo bio.app */,
+				00053C262A5F172A0003DE88 /* ranboo bioTests.xctest */,
+				00053C302A5F172A0003DE88 /* ranboo bioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00053C182A5F17270003DE88 /* ranboo bio */ = {
+			isa = PBXGroup;
+			children = (
+				00053C192A5F17270003DE88 /* ranboo_bioApp.swift */,
+				00053C1B2A5F17270003DE88 /* ContentView.swift */,
+				00053C1D2A5F172A0003DE88 /* Assets.xcassets */,
+				00053C1F2A5F172A0003DE88 /* Preview Content */,
+			);
+			path = "ranboo bio";
+			sourceTree = "<group>";
+		};
+		00053C1F2A5F172A0003DE88 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				00053C202A5F172A0003DE88 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		00053C292A5F172A0003DE88 /* ranboo bioTests */ = {
+			isa = PBXGroup;
+			children = (
+				00053C2A2A5F172A0003DE88 /* ranboo_bioTests.swift */,
+			);
+			path = "ranboo bioTests";
+			sourceTree = "<group>";
+		};
+		00053C332A5F172A0003DE88 /* ranboo bioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00053C342A5F172A0003DE88 /* ranboo_bioUITests.swift */,
+				00053C362A5F172A0003DE88 /* ranboo_bioUITestsLaunchTests.swift */,
+			);
+			path = "ranboo bioUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00053C152A5F17270003DE88 /* ranboo bio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00053C3A2A5F172A0003DE88 /* Build configuration list for PBXNativeTarget "ranboo bio" */;
+			buildPhases = (
+				00053C122A5F17270003DE88 /* Sources */,
+				00053C132A5F17270003DE88 /* Frameworks */,
+				00053C142A5F17270003DE88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ranboo bio";
+			productName = "ranboo bio";
+			productReference = 00053C162A5F17270003DE88 /* ranboo bio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00053C252A5F172A0003DE88 /* ranboo bioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00053C3D2A5F172A0003DE88 /* Build configuration list for PBXNativeTarget "ranboo bioTests" */;
+			buildPhases = (
+				00053C222A5F172A0003DE88 /* Sources */,
+				00053C232A5F172A0003DE88 /* Frameworks */,
+				00053C242A5F172A0003DE88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00053C282A5F172A0003DE88 /* PBXTargetDependency */,
+			);
+			name = "ranboo bioTests";
+			productName = "ranboo bioTests";
+			productReference = 00053C262A5F172A0003DE88 /* ranboo bioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00053C2F2A5F172A0003DE88 /* ranboo bioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00053C402A5F172A0003DE88 /* Build configuration list for PBXNativeTarget "ranboo bioUITests" */;
+			buildPhases = (
+				00053C2C2A5F172A0003DE88 /* Sources */,
+				00053C2D2A5F172A0003DE88 /* Frameworks */,
+				00053C2E2A5F172A0003DE88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00053C322A5F172A0003DE88 /* PBXTargetDependency */,
+			);
+			name = "ranboo bioUITests";
+			productName = "ranboo bioUITests";
+			productReference = 00053C302A5F172A0003DE88 /* ranboo bioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00053C0E2A5F17270003DE88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					00053C152A5F17270003DE88 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					00053C252A5F172A0003DE88 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 00053C152A5F17270003DE88;
+					};
+					00053C2F2A5F172A0003DE88 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 00053C152A5F17270003DE88;
+					};
+				};
+			};
+			buildConfigurationList = 00053C112A5F17270003DE88 /* Build configuration list for PBXProject "ranboo bio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00053C0D2A5F17270003DE88;
+			productRefGroup = 00053C172A5F17270003DE88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00053C152A5F17270003DE88 /* ranboo bio */,
+				00053C252A5F172A0003DE88 /* ranboo bioTests */,
+				00053C2F2A5F172A0003DE88 /* ranboo bioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00053C142A5F17270003DE88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00053C212A5F172A0003DE88 /* Preview Assets.xcassets in Resources */,
+				00053C1E2A5F172A0003DE88 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00053C242A5F172A0003DE88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00053C2E2A5F172A0003DE88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00053C122A5F17270003DE88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00053C1C2A5F17270003DE88 /* ContentView.swift in Sources */,
+				00053C1A2A5F17270003DE88 /* ranboo_bioApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00053C222A5F172A0003DE88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00053C2B2A5F172A0003DE88 /* ranboo_bioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00053C2C2A5F172A0003DE88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00053C372A5F172A0003DE88 /* ranboo_bioUITestsLaunchTests.swift in Sources */,
+				00053C352A5F172A0003DE88 /* ranboo_bioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00053C282A5F172A0003DE88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00053C152A5F17270003DE88 /* ranboo bio */;
+			targetProxy = 00053C272A5F172A0003DE88 /* PBXContainerItemProxy */;
+		};
+		00053C322A5F172A0003DE88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00053C152A5F17270003DE88 /* ranboo bio */;
+			targetProxy = 00053C312A5F172A0003DE88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00053C382A5F172A0003DE88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00053C392A5F172A0003DE88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00053C3B2A5F172A0003DE88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ranboo bio/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.ranboo-bio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00053C3C2A5F172A0003DE88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ranboo bio/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.ranboo-bio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00053C3E2A5F172A0003DE88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.ranboo-bioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ranboo bio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ranboo bio";
+			};
+			name = Debug;
+		};
+		00053C3F2A5F172A0003DE88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.ranboo-bioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ranboo bio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ranboo bio";
+			};
+			name = Release;
+		};
+		00053C412A5F172A0003DE88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.ranboo-bioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ranboo bio";
+			};
+			name = Debug;
+		};
+		00053C422A5F172A0003DE88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.ranboo-bioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ranboo bio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00053C112A5F17270003DE88 /* Build configuration list for PBXProject "ranboo bio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00053C382A5F172A0003DE88 /* Debug */,
+				00053C392A5F172A0003DE88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00053C3A2A5F172A0003DE88 /* Build configuration list for PBXNativeTarget "ranboo bio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00053C3B2A5F172A0003DE88 /* Debug */,
+				00053C3C2A5F172A0003DE88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00053C3D2A5F172A0003DE88 /* Build configuration list for PBXNativeTarget "ranboo bioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00053C3E2A5F172A0003DE88 /* Debug */,
+				00053C3F2A5F172A0003DE88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00053C402A5F172A0003DE88 /* Build configuration list for PBXNativeTarget "ranboo bioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00053C412A5F172A0003DE88 /* Debug */,
+				00053C422A5F172A0003DE88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00053C0E2A5F17270003DE88 /* Project object */;
+}
